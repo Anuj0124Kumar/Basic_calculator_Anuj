@@ -10,7 +10,7 @@ Array.from(digit).forEach((items)=>{
         }
         else if(idx.target.innerHTML == 'Reset'){
             string="";
-            
+            document.querySelector('#input').value=string;
         }
         else if(idx.target.innerHTML == 'C'){
             string=string.slice(0,-1);
